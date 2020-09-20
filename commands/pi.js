@@ -1,8 +1,5 @@
-module.exports = {
-  name: "pi",
-  description: "Prints the value of π",
-
-  execute(message) {
-    message.reply(`π: ${Math.PI}`);
-  },
-};
+export const name = "pi";
+export const description = "Prints the value of π";
+export function execute(message) {
+  message.reply(`π: ${Math.PI}`);
+}
